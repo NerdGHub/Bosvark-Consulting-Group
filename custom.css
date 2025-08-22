@@ -1,0 +1,88 @@
+:root {
+    --clr-dark-a0: #000000;
+    --clr-light-a0: #ffffff;
+
+    --clr-surface-a0: #121212;
+    --clr-surface-a10: #282828;
+    --clr-surface-a20: #3f3f3f;
+    --clr-surface-a30: #575757;
+    --clr-surface-a40: #717171;
+    --clr-surface-a50: #8b8b8b;
+
+    --clr-surface-tonal-a0: #281a14;
+    --clr-surface-tonal-a10: #3d2f29;
+    --clr-surface-tonal-a20: #534540;
+    --clr-surface-tonal-a30: #695d58;
+    --clr-surface-tonal-a40: #817672;
+    --clr-surface-tonal-a50: #99908c;
+
+    /* Map to Bootstrap colors */
+    --bs-body-bg: var(--clr-surface-a0);
+    --bs-body-color: var(--clr-light-a0);
+
+    --bs-dark: var(--clr-dark-a0);
+    --bs-light: var(--clr-light-a0);
+    --bs-primary: var(--clr-light-a0);
+    --bs-secondary: var(--clr-surface-a40);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--clr-surface-a10) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-dark) !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-dark) !important;
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    color: var(--clr-dark-a0) !important;
+    border: none !important;
+}
+
+.hero {
+    background-image: url('/assets/hero-bg.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    height: 100vh;
+}
+
+.hero h1,
+.hero p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.services .nav-link {
+    border: none !important;
+    color: var(--bs-light) !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid var(--bs-primary) !important;
+}
+
+.services .nav-link.active {
+    border: none !important;
+    color: var(--bs-light) !important;
+    background-color: transparent !important;
+    border-bottom: 4px solid var(--bs-primary) !important;
+}
+
+.services .tab-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}

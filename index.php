@@ -35,7 +35,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark" id="about">
         <div class="container">
             <div class="row ">
                 <div class="col-md-4 px-5">
@@ -58,245 +58,317 @@
 
         <hr class="w-100">
 
-        <div class="container">
-            <div class="row py-5">
-                <div class="col-md-12 text-center">
-                    <h2 class="my-5">About Bosvark</h2>
+        <div class="container"">
+            <div class=" row py-5">
+            <div class="col-md-12 text-center">
+                <h2 class="my-5">About Bosvark</h2>
 
-                    <div class="py-3">
-                        <h3>'MAKE IT HAPPEN'</h3>
-                        <p>
-                            <em>'Make it happen'</em> is the soul belief upon which our group's ethos is built. This
-                            fundamental
-                            ethic of determination and commitment is why we have the ability to deliver what other
-                            companies
-                            within the industry cannot.
-                        </p>
-                    </div>
+                <div class="py-3">
+                    <h3>'MAKE IT HAPPEN'</h3>
+                    <p>
+                        <em>'Make it happen'</em> is the soul belief upon which our group's ethos is built. This
+                        fundamental
+                        ethic of determination and commitment is why we have the ability to deliver what other
+                        companies
+                        within the industry cannot.
+                    </p>
+                </div>
 
-                    <div class="py-3">
-                        <h3>'ABOUT US'</h3>
-                        <p>
-                            At Bosvark Consulting Group (BVC), we are the architects of success for organisations
-                            operating
-                            in challenging landscapes. Our primary focus lies in facilitating seamless collaboration
-                            between
-                            manufacturers and end-users, we offer:
-                        </p>
+                <div class="py-3">
+                    <h3>'ABOUT US'</h3>
+                    <p>
+                        At Bosvark Consulting Group (BVC), we are the architects of success for organisations
+                        operating
+                        in challenging landscapes. Our primary focus lies in facilitating seamless collaboration
+                        between
+                        manufacturers and end-users, we offer:
+                    </p>
 
-                        <ul class="text-start pt-2">
-                            <li><strong>In-Depth Local Knowledge:</strong> What sets us apart is our deep understanding
-                                of local
-                                dynamics.
-                                BVC's team possesses in-depth local knowledge, providing nuanced insights into the
-                                unique
-                                challenges and opportunities present in contested and hostile environments. This local
-                                expertise is the cornerstone of our strategic approach.</li>
-                            <br>
-                            <li><strong>Operational Flexibility:</strong> BVC stands out by offering unparalleled
-                                operational
-                                flexibility. We
-                                operate wherever our clients require, adapting to diverse and challenging environments
-                                to
-                                meet their specific needs. Our commitment goes beyond borders, ensuring that our
-                                client's
-                                objectives are achieved, regardless of location.</li>
-                            <br>
-                            <li><strong>Investment in Countries We Operate In:</strong> Unlike traditional
-                                consultancies, our consultants
-                                and
-                                team at BVC are genuinely invested in the countries where we operate. We aspire to see
-                                these
-                                nations succeed and stabilise. This genuine commitment is reflected in our approach,
-                                fostering relationships that go beyond business to create positive impacts on local
-                                communities.</li>
-                            <br>
-                            <li><strong>In-Depth Local Knowledge:</strong> What sets us apart is our deep understanding
-                                of local
-                                dynamics.
-                                BVC's team possesses in-depth local knowledge, providing nuanced insights into the
-                                unique
-                                challenges and opportunities present in contested and hostile environments. This local
-                                expertise is the cornerstone of our strategic approach.</li>
-                            <br>
-                            <li><strong>Shared Values and Standards:</strong> BVC is selective in its partnerships,
-                                working exclusively
-                                with
-                                clients who share our values and standards. We believe in forging collaborations that
-                                extend
-                                beyond business transactions — partnerships that contribute to the mutual growth,
-                                stability,
-                                and success of all stakeholders involved.</li>
-                            <br>
-                            <li><strong>Confidentiality and Security:</strong> We prioritise confidentiality and
-                                security from the
-                                first
-                                means of contact. Your sensitive information and proprietary technologies are protected
-                                with
-                                the utmost care and professionalism, and information will remain strictly confidential
-                                from
-                                start to finish</li>
-                            <br>
-                            <p>At Bosvark Consulting Group, our mission is to build lasting connections that empower
-                                organisations, enhance operational capabilities, and contribute to stabilising contested
-                                environments. </p>
-                        </ul>
-                    </div>
+                    <ul class="text-start pt-2">
+                        <li><strong>In-Depth Local Knowledge:</strong> What sets us apart is our deep understanding
+                            of local
+                            dynamics.
+                            BVC's team possesses in-depth local knowledge, providing nuanced insights into the
+                            unique
+                            challenges and opportunities present in contested and hostile environments. This local
+                            expertise is the cornerstone of our strategic approach.</li>
+                        <br>
+                        <li><strong>Operational Flexibility:</strong> BVC stands out by offering unparalleled
+                            operational
+                            flexibility. We
+                            operate wherever our clients require, adapting to diverse and challenging environments
+                            to
+                            meet their specific needs. Our commitment goes beyond borders, ensuring that our
+                            client's
+                            objectives are achieved, regardless of location.</li>
+                        <br>
+                        <li><strong>Investment in Countries We Operate In:</strong> Unlike traditional
+                            consultancies, our consultants
+                            and
+                            team at BVC are genuinely invested in the countries where we operate. We aspire to see
+                            these
+                            nations succeed and stabilise. This genuine commitment is reflected in our approach,
+                            fostering relationships that go beyond business to create positive impacts on local
+                            communities.</li>
+                        <br>
+                        <li><strong>In-Depth Local Knowledge:</strong> What sets us apart is our deep understanding
+                            of local
+                            dynamics.
+                            BVC's team possesses in-depth local knowledge, providing nuanced insights into the
+                            unique
+                            challenges and opportunities present in contested and hostile environments. This local
+                            expertise is the cornerstone of our strategic approach.</li>
+                        <br>
+                        <li><strong>Shared Values and Standards:</strong> BVC is selective in its partnerships,
+                            working exclusively
+                            with
+                            clients who share our values and standards. We believe in forging collaborations that
+                            extend
+                            beyond business transactions — partnerships that contribute to the mutual growth,
+                            stability,
+                            and success of all stakeholders involved.</li>
+                        <br>
+                        <li><strong>Confidentiality and Security:</strong> We prioritise confidentiality and
+                            security from the
+                            first
+                            means of contact. Your sensitive information and proprietary technologies are protected
+                            with
+                            the utmost care and professionalism, and information will remain strictly confidential
+                            from
+                            start to finish</li>
+                        <br>
+                        <p>At Bosvark Consulting Group, our mission is to build lasting connections that empower
+                            organisations, enhance operational capabilities, and contribute to stabilising contested
+                            environments. </p>
+                    </ul>
                 </div>
             </div>
         </div>
-
-        <hr class="w-100">
-
-        <div class="container services">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="my-5 text-center">Our Services</h2>
-
-                    <nav class="mb-5">
-                        <div class="nav nav-tabs justify-content-center border-0" id="nav-tab" role="tablist">
-                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                aria-selected="true">Home</button>
-                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
-                                aria-selected="false">Profile</button>
-                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
-                                aria-selected="false">Contact</button>
-                        </div>
-                    </nav>
-
-
-                    <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                            aria-labelledby="nav-home-tab">
-                            <div class="row d-flex align-items-stretch">
-                                <div class="col-md-4 d-flex">
-                                    <img src="/assets/service-bg1.avif" alt="" class="img-fluid w-100"
-                                        style="object-fit: cover;">
-                                </div>
-                                <div class="col-md-8 d-flex flex-column">
-                                    <h2>Operational Support</h2>
-                                    <p>At the heart of Bosvark Consulting Group's commitment to operational
-                                        excellence is our key service: Operational Support (BVC OS) to current
-                                        end-user stakeholder communities on behalf of our clients.
-
-                                        Our operational support programs are designed to enhance the efficiency of
-                                        mission-critical operations in contested and hostile environments, ensuring
-                                        success and satisfaction for both our clients and end users.
-                                        ​</p>
-                                    <ul class="pt-2">
-                                        <li>Key Components of Our Operational Support:</li>
-                                        <li>Security & close protection</li>
-                                        <li>Retrofitting after delivery</li>
-                                        <li>Equipment maintenance & On-Call Support Service.</li>
-                                        <li>End-User Feedback</li>
-                                        <li>Market Intelligence Reports</li>
-                                        <li>Logistical Support for Equipment Delivery</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <div class="row d-flex align-items-stretch">
-                                <div class="col-md-4 d-flex">
-                                    <img src="/assets/service-bg2.avif" alt="" class="img-fluid w-100"
-                                        style="object-fit: cover;">
-                                </div>
-                                <div class="col-md-8 d-flex flex-column">
-                                    <h2>Overseas Support</h2>
-                                    <p><strong>Comprehensive in-country set-up services include:</strong></p>
-                                    <ul>
-                                        <li>Servicing Centres/Manufacturing site Establishment</li>
-                                        <li>Regulatory Compliance Management</li>
-                                        <li>Local Workforce Integration</li>
-                                        <li>Security and Risk Mitigation</li>
-                                        <li>Operational Efficiency Optimization</li>
-                                    </ul>
-                                    <br>
-                                    <p>
-                                        Bosvark Consulting Group Client Support (BVC CS) understand that establishing
-                                        operations in contested environments requires a specialised and strategic
-                                        approach.
-                                        Our commitment is to ensure that our clients' servicing centres and
-                                        manufacturing
-                                        facilities are operational, resilient, adaptable, and positioned for long-term
-                                        success.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                            <div class="row d-flex align-items-stretch">
-                                <div class="col-md-4 d-flex">
-                                    <img src="/assets/service-bg3.avif" alt="" class="img-fluid w-100"
-                                        style="object-fit: cover;">
-                                </div>
-                                <div class="col-md-8 d-flex flex-column">
-                                    <h2>Military Training Design & HEAT courses</h2>
-                                    <p>Bosvark Consulting Group are currently the only company in the world that
-                                        actively
-                                        supports the delivery of training in hot zones. We take real time experience
-                                        from
-                                        our instructors to design and deliver cutting-edge military training programs.
-                                        With
-                                        a relentless commitment to shaping the most proficient and resilient armed
-                                        forces,
-                                        we have honed our expertise to create bespoke training solutions that prepare
-                                        soldiers for the most demanding tasks.
-                                        ​</p>
-
-                                    <p><strong>Our Expertise:</strong></p>
-                                    <ul class="text-start">
-                                        <li>Customized Training Programs</li>
-                                        <li>Theatre Specific HEAT Courses</li>
-                                    </ul>
-
-                                    <p><strong>Our training programmes & and HEAT courses encompass a series of core
-                                            values
-                                            that we believe make BVC stand out from competitors:</strong></p>
-                                    <ul class="text-start">
-                                        <li><strong>Excellence:</strong> We are dedicated to delivering training
-                                            programs of
-                                            the highest
-                                            quality, fostering excellence in every facet of military operations.</li>
-                                        <li><strong>Safety:</strong> The safety of our trainees is paramount. Our
-                                            training
-                                            environments are
-                                            rigorously controlled to minimize risks while maximizing learning.</li>
-                                        <li><strong>Adaptability:</strong> We stay ahead of emerging threats and
-                                            technologies, adapting our
-                                            training programs to ensure that military personnel are always ready for the
-                                            evolving challenges of modern warfare.</li>
-                                        <li><strong>Partnership:</strong> We forge strong partnerships with military
-                                            organizations, working
-                                            collaboratively to achieve their training goals and enhance their
-                                            capabilities.
-                                        </li>
-                                        <li><strong>Mission Success:</strong> Ultimately, our mission is mission
-                                            success. We
-                                            take pride in
-                                            contributing to the readiness and effectiveness of the armed forces,
-                                            ensuring
-                                            they are always prepared to protect and defend.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
     </div>
 
-    <footer>
+    <hr class="w-100">
 
-    </footer>
+    <div class="container services" id="services">
+        <div class="row py-5">
+            <div class="col-12">
+                <h2 class="my-5 text-center">Our Services</h2>
+
+                <nav class="mb-5">
+                    <div class="nav nav-tabs justify-content-center border-0" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Home</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                    </div>
+                </nav>
+
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row d-flex align-items-stretch">
+                            <div class="col-md-4 d-flex">
+                                <img src="/assets/service-bg1.avif" alt="" class="img-fluid w-100"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8 d-flex flex-column">
+                                <h2>Operational Support</h2>
+                                <p>At the heart of Bosvark Consulting Group's commitment to operational
+                                    excellence is our key service: Operational Support (BVC OS) to current
+                                    end-user stakeholder communities on behalf of our clients.
+
+                                    Our operational support programs are designed to enhance the efficiency of
+                                    mission-critical operations in contested and hostile environments, ensuring
+                                    success and satisfaction for both our clients and end users.
+                                    ​</p>
+                                <ul class="pt-2">
+                                    <li>Key Components of Our Operational Support:</li>
+                                    <li>Security & close protection</li>
+                                    <li>Retrofitting after delivery</li>
+                                    <li>Equipment maintenance & On-Call Support Service.</li>
+                                    <li>End-User Feedback</li>
+                                    <li>Market Intelligence Reports</li>
+                                    <li>Logistical Support for Equipment Delivery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row d-flex align-items-stretch">
+                            <div class="col-md-4 d-flex">
+                                <img src="/assets/service-bg2.avif" alt="" class="img-fluid w-100"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8 d-flex flex-column">
+                                <h2>Overseas Support</h2>
+                                <p><strong>Comprehensive in-country set-up services include:</strong></p>
+                                <ul>
+                                    <li>Servicing Centres/Manufacturing site Establishment</li>
+                                    <li>Regulatory Compliance Management</li>
+                                    <li>Local Workforce Integration</li>
+                                    <li>Security and Risk Mitigation</li>
+                                    <li>Operational Efficiency Optimization</li>
+                                </ul>
+                                <br>
+                                <p>
+                                    Bosvark Consulting Group Client Support (BVC CS) understand that establishing
+                                    operations in contested environments requires a specialised and strategic
+                                    approach.
+                                    Our commitment is to ensure that our clients' servicing centres and
+                                    manufacturing
+                                    facilities are operational, resilient, adaptable, and positioned for long-term
+                                    success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row d-flex align-items-stretch">
+                            <div class="col-md-4 d-flex">
+                                <img src="/assets/service-bg3.avif" alt="" class="img-fluid w-100"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8 d-flex flex-column">
+                                <h2>Military Training Design & HEAT courses</h2>
+                                <p>Bosvark Consulting Group are currently the only company in the world that
+                                    actively
+                                    supports the delivery of training in hot zones. We take real time experience
+                                    from
+                                    our instructors to design and deliver cutting-edge military training programs.
+                                    With
+                                    a relentless commitment to shaping the most proficient and resilient armed
+                                    forces,
+                                    we have honed our expertise to create bespoke training solutions that prepare
+                                    soldiers for the most demanding tasks.
+                                    ​</p>
+
+                                <p><strong>Our Expertise:</strong></p>
+                                <ul class="text-start">
+                                    <li>Customized Training Programs</li>
+                                    <li>Theatre Specific HEAT Courses</li>
+                                </ul>
+
+                                <p><strong>Our training programmes & and HEAT courses encompass a series of core
+                                        values
+                                        that we believe make BVC stand out from competitors:</strong></p>
+                                <ul class="text-start">
+                                    <li><strong>Excellence:</strong> We are dedicated to delivering training
+                                        programs of
+                                        the highest
+                                        quality, fostering excellence in every facet of military operations.</li>
+                                    <li><strong>Safety:</strong> The safety of our trainees is paramount. Our
+                                        training
+                                        environments are
+                                        rigorously controlled to minimize risks while maximizing learning.</li>
+                                    <li><strong>Adaptability:</strong> We stay ahead of emerging threats and
+                                        technologies, adapting our
+                                        training programs to ensure that military personnel are always ready for the
+                                        evolving challenges of modern warfare.</li>
+                                    <li><strong>Partnership:</strong> We forge strong partnerships with military
+                                        organizations, working
+                                        collaboratively to achieve their training goals and enhance their
+                                        capabilities.
+                                    </li>
+                                    <li><strong>Mission Success:</strong> Ultimately, our mission is mission
+                                        success. We
+                                        take pride in
+                                        contributing to the readiness and effectiveness of the armed forces,
+                                        ensuring
+                                        they are always prepared to protect and defend.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="w-100">
+
+    <div class="container" id="ukraine">
+        <div class="row">
+            <div class="col">
+                <h2 class="my-5 text-center">Ukraine</h2>
+
+                <p>
+                    Bosvark Consulting Group (BVC) takes great pride in the shared commitment and collaboration with
+                    SABRE Training & Advisory Group, an organization that emerged from a genuine concern for the
+                    quality of training provided to Ukrainian soldiers. BVC's founder is also a board member and
+                    director at SABRE. SABRE is driven by a mission to address the deficiencies observed in foreign
+                    instructors attempting to train Ukrainian forces in NATO and Allied-style warfare.
+                </p>
+
+                <p><strong>Key Highlights of SABRE Training & Advisory Group:</strong></p>
+
+                <ul>
+                    <li>
+                        <strong>Origin and Founding Motivation:</strong> SABRE's inception was rooted in the
+                        frustrations experienced by its founding members concerning the chaotic and unprofessional
+                        nature of foreign
+                        instructors attempting to train Ukrainian soldiers. Recognizing the need for a more
+                        effective and
+                        structured approach, SABRE was established to bring a higher standard of training to the
+                        forefront.
+                    </li>
+                    <li>
+                        <strong>Experienced Team with Military Background:</strong> The SABRE team boasts over 30
+                        years of combined military experience, bringing a wealth of knowledge and expertise to their
+                        training
+                        programs. This depth of experience ensures that Ukrainian defenders receive top-notch
+                        instruction
+                        aligned with international standards.
+                    </li>
+                    <li>
+                        <strong>Operational Flexibility and Frontline Presence:</strong> SABRE distinguishes itself
+                        by its commitment
+                        to operating wherever required, with a significant portion of its operations taking place at
+                        the frontlines. This operational flexibility enables SABRE to directly engage with Ukrainian
+                        soldiers in their challenging environments, providing hands-on and relevant training.
+                    </li>
+                    <li>
+                        <strong>Dedicated Team of Instructors:</strong> Comprising over 20 highly skilled and
+                        committed instructors, the SABRE team has been actively supporting Ukrainian soldiers for
+                        the past 18 months. Their
+                        dedication contributes to the effectiveness of training programs, fostering the development
+                        of critical skills for those on the frontlines.
+                    </li>
+                    <li>
+                        <strong>Humanitarian Efforts with Project Volya:</strong> Through collaboration with Project
+                        Volya, SABRE has
+                        successfully delivered over $150,000 worth of tactical medical equipment to assist soldiers
+                        on the frontlines. This collaborative humanitarian effort reflects the commitment of SABRE
+                        to
+                        not only provide training but also contribute to the well-being of those actively serving in
+                        challenging conditions.
+                    </li>
+                    <li>
+                        <strong>Shared Profits to Support SABRE and Project Volya:</strong> A notable aspect of
+                        BVC's mission is the allocation of a portion of all profits to support the efforts of SABRE
+                        and Project Volya.
+                        This commitment underscores the holistic approach taken by BVC, recognizing the importance
+                        of
+                        contributing to both training initiatives and humanitarian projects.
+                    </li>
+                </ul>
+                <p>
+                    At Bosvark Consulting, our collaboration with the SABRE Training & Advisory Group reflects
+                    our shared values, dedication to excellence, and commitment to making a positive impact in
+                    challenging environments. Through this partnership, we strive to empower defenders and
+                    contribute to the well-being of those who serve on the frontlines.
+                </p>
+
+                <p class="text-center"><a href="www.sabretag.org">www.sabretag.org</a></p>
+            </div>
+        </div>
+    </div>
+
+    <?php
+    include('footer.php')
+        ?>
 </body>
-
-
 
 </html>

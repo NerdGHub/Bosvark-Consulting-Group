@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark flex-column fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark flex-column">
         <div class="container">
             <!-- Left -->
             <div class="d-flex align-items-center">
@@ -19,30 +19,32 @@
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/index.html">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/about/index.html">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/ukraine/index.html">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/contact/index.html">Ukraine</a>
+                        <a class="nav-link" href="#ukraine">Ukraine</a>
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/contact/index.html">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="container">
             <div class="Membership ">
+                <img src="/assets/ads-icon.avif" alt="">
                 <p class="px-2 d-inline">Membership no: W7719</p>
+                <img src="/assets/mv2-icon.avif" alt="">
                 <p class="px-2 d-inline">Membership: 230506890</p>
             </div>
         </div>

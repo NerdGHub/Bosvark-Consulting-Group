@@ -17,7 +17,7 @@
     --clr-surface-tonal-a50: #99908c;
 
     /* Map to Bootstrap colors */
-    --bs-body-bg: var(--clr-surface-a0);
+    --bs-body-bg: var(--clr-surface-a50);
     --bs-body-color: var(--clr-light-a0);
 
     --bs-dark: var(--clr-dark-a0);
@@ -26,20 +26,26 @@
     --bs-secondary: var(--clr-surface-a40);
 }
 
-/* Navbar */
-.navbar {
-    background-color: var(--clr-surface-a10) !important;
+/* Navbar*/
+.navbar,
+.nav-link {
+    color: var(--bs-light) !important;
+    background-color: var(--bs-dark) !important;
+}
+
+.bg-dark {
+    background-color: var(--clr-dark-a0) !important;
 }
 
 .btn-primary {
     background-color: var(--bs-primary) !important;
     color: var(--bs-dark) !important;
     border: none !important;
+    transition: background-color 0.2 !important;
 }
 
 .btn-primary:hover {
-    background-color: var(--bs-primary) !important;
-    color: var(--bs-dark) !important;
+    background-color: #c2c2c2 !important;
     border: none !important;
 }
 

@@ -160,7 +160,7 @@
 }
 
 .hero {
-    background-image: url('/assets/hero-bg.avif');
+    background-image: url('assets/hero-bg.avif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

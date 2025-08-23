@@ -5,6 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Robots and Indexing -->
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+<!-- Primary Meta Tags -->
 <meta name="title" content="Bosvark Consulting Group - Innovative Business Solutions">
 <meta name="description"
     content="Bosvark Consulting Group is a leading provider of innovative business solutions, specializing in strategic consulting, technology integration, and operational excellence. Our team of experts is dedicated to helping organizations navigate complex challenges and achieve sustainable growth through tailored strategies and cutting-edge technologies.">

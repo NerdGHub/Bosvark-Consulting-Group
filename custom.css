@@ -1,7 +1,17 @@
 :root {
+    /** Base colors */
     --clr-dark-a0: #000000;
     --clr-light-a0: #ffffff;
 
+    /** Theme primary colors */
+    --clr-primary-a0: #ffffff;
+    --clr-primary-a10: #ffffff;
+    --clr-primary-a20: #ffffff;
+    --clr-primary-a30: #ffffff;
+    --clr-primary-a40: #ffffff;
+    --clr-primary-a50: #ffffff;
+
+    /** Theme surface colors */
     --clr-surface-a0: #121212;
     --clr-surface-a10: #282828;
     --clr-surface-a20: #3f3f3f;
@@ -9,49 +19,143 @@
     --clr-surface-a40: #717171;
     --clr-surface-a50: #8b8b8b;
 
-    --clr-surface-tonal-a0: #281a14;
-    --clr-surface-tonal-a10: #3d2f29;
-    --clr-surface-tonal-a20: #534540;
-    --clr-surface-tonal-a30: #695d58;
-    --clr-surface-tonal-a40: #817672;
-    --clr-surface-tonal-a50: #99908c;
+    /** Theme tonal surface colors */
+    --clr-surface-tonal-a0: #252525;
+    --clr-surface-tonal-a10: #393939;
+    --clr-surface-tonal-a20: #4f4f4f;
+    --clr-surface-tonal-a30: #666666;
+    --clr-surface-tonal-a40: #7d7d7d;
+    --clr-surface-tonal-a50: #969696;
 
-    /* Map to Bootstrap colors */
-    --bs-body-bg: var(--clr-surface-a50);
-    --bs-body-color: var(--clr-light-a0);
+    /** Bootstrap Color Overrides */
+    --bs-primary: var(--clr-primary-a0);
+    --bs-primary-rgb: 255, 255, 255;
 
-    --bs-dark: var(--clr-dark-a0);
-    --bs-light: var(--clr-light-a0);
-    --bs-primary: var(--clr-light-a0);
     --bs-secondary: var(--clr-surface-a40);
+    --bs-secondary-rgb: 113, 113, 113;
+
+    --bs-success: #198754;
+    --bs-success-rgb: 25, 135, 84;
+
+    --bs-info: #0dcaf0;
+    --bs-info-rgb: 13, 202, 240;
+
+    --bs-warning: #ffc107;
+    --bs-warning-rgb: 255, 193, 7;
+
+    --bs-danger: #dc3545;
+    --bs-danger-rgb: 220, 53, 69;
+
+    --bs-light: var(--clr-primary-a0);
+    --bs-light-rgb: 255, 255, 255;
+
+    --bs-dark: var(--clr-surface-a0);
+    --bs-dark-rgb: 18, 18, 18;
+
+    /** Bootstrap Background Colors */
+    --bs-body-bg: var(--clr-surface-a0);
+    --bs-body-color: var(--clr-primary-a0);
+
+    /** Bootstrap Border Colors */
+    --bs-border-color: var(--clr-surface-a30);
+    --bs-border-color-translucent: rgba(87, 87, 87, 0.175);
+
+    /** Bootstrap Form Colors */
+    --bs-form-control-bg: var(--clr-surface-a10);
+    --bs-form-control-color: var(--clr-primary-a0);
+    --bs-form-control-border-color: var(--clr-surface-a30);
+
+    /** Bootstrap Navigation Colors */
+    --bs-navbar-color: var(--clr-primary-a0);
+    --bs-navbar-hover-color: var(--clr-surface-a50);
+    --bs-navbar-active-color: var(--clr-primary-a0);
+    --bs-navbar-brand-color: var(--clr-primary-a0);
+    --bs-navbar-brand-hover-color: var(--clr-surface-a50);
+
+    /** Bootstrap Card Colors */
+    --bs-card-bg: var(--clr-surface-a10);
+    --bs-card-border-color: var(--clr-surface-a30);
+
+    /** Bootstrap Modal Colors */
+    --bs-modal-bg: var(--clr-surface-a10);
+    --bs-modal-border-color: var(--clr-surface-a30);
+    --bs-modal-header-border-color: var(--clr-surface-a30);
+    --bs-modal-footer-border-color: var(--clr-surface-a30);
+
+    /** Bootstrap Dropdown Colors */
+    --bs-dropdown-bg: var(--clr-surface-a10);
+    --bs-dropdown-border-color: var(--clr-surface-a30);
+    --bs-dropdown-color: var(--clr-primary-a0);
+    --bs-dropdown-link-color: var(--clr-primary-a0);
+    --bs-dropdown-link-hover-color: var(--clr-primary-a0);
+    --bs-dropdown-link-hover-bg: var(--clr-surface-a20);
+
+    /** Bootstrap Table Colors */
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--clr-primary-a0);
+    --bs-table-border-color: var(--clr-surface-a30);
+    --bs-table-striped-bg: var(--clr-surface-a10);
+    --bs-table-hover-bg: var(--clr-surface-a20);
+
+    /** Bootstrap Button Variants */
+    --bs-btn-close-color: var(--clr-primary-a0);
+
+    /** Bootstrap Accordion Colors */
+    --bs-accordion-bg: var(--clr-surface-a10);
+    --bs-accordion-color: var(--clr-primary-a0);
+    --bs-accordion-border-color: var(--clr-surface-a30);
+    --bs-accordion-button-bg: var(--clr-surface-a10);
+    --bs-accordion-button-color: var(--clr-primary-a0);
+
+    /** Bootstrap Offcanvas Colors */
+    --bs-offcanvas-bg: var(--clr-surface-a10);
+    --bs-offcanvas-color: var(--clr-primary-a0);
+    --bs-offcanvas-border-color: var(--clr-surface-a30);
+
+    /** Bootstrap Tooltip/Popover Colors */
+    --bs-tooltip-bg: var(--clr-surface-a20);
+    --bs-tooltip-color: var(--clr-primary-a0);
+    --bs-popover-bg: var(--clr-surface-a10);
+    --bs-popover-border-color: var(--clr-surface-a30);
 }
+
+.surface-1 {
+    background-color: var(--clr-surface-a0) !important;
+}
+
+.surface-2 {
+    background-color: var(--clr-surface-a10) !important;
+}
+
 
 /* Navbar*/
-.navbar,
-.nav-link {
-    color: var(--bs-light) !important;
-    background-color: var(--bs-dark) !important;
+
+.navbar {
+    font-size: 1.25rem !important;
+
 }
 
-.bg-dark {
-    background-color: var(--clr-dark-a0) !important;
+.nav-link {
+    color: var(--clr-light-a0) !important;
+    transition: color 0.2 !important;
+}
+
+.nav-link:hover {
+    color: #c2c2c2 !important;
 }
 
 .btn-primary {
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
     background-color: var(--bs-primary) !important;
     color: var(--bs-dark) !important;
     border: none !important;
     transition: background-color 0.2 !important;
+
 }
 
 .btn-primary:hover {
     background-color: #c2c2c2 !important;
-    border: none !important;
-}
-
-.btn-primary {
-    background-color: var(--bs-primary) !important;
-    color: var(--clr-dark-a0) !important;
     border: none !important;
 }
 
@@ -75,14 +179,14 @@
 
 .services .nav-link {
     border: none !important;
-    color: var(--bs-light) !important;
+    color: var(--clr-light-a0) !important;
     background-color: transparent !important;
     border-bottom: 2px solid var(--bs-primary) !important;
 }
 
 .services .nav-link.active {
     border: none !important;
-    color: var(--bs-light) !important;
+    color: var(--clr-light-a0) !important;
     background-color: transparent !important;
     border-bottom: 4px solid var(--bs-primary) !important;
 }

@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <?php include('repos.html') ?>
+    <?php include('/repos.html') ?>
 
 
     <?php
     $pageTitle = "Bosvark-Consulting-Group - Homepage";
-    include('meta.php') ?>
+    include('/meta.php') ?>
 
 </head>
 
 <body class="hero">
-    <?php include('header.php') ?>
+    <?php include('/header.php') ?>
     <div class="container hero-content mt-5 d-flex d-flex-column justify-content-center align-items-center">
         <div class="row justify-content-center text-center">
             <div class="col-12 pt-5 mt-5">
@@ -375,7 +375,7 @@
 
     </div>
 
-    <?php include('footer.php') ?>
+    <?php include('/footer.php') ?>
 </body>
 
 </html>
